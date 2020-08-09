@@ -13,5 +13,7 @@ describe('Compare numbers', () => {
   test('should be less than or equal', () => {
     expect(numbers(2, 2)).toBeLessThanOrEqual(4)
   })
- 
+  test('should be a float', () => {
+    expect(numbers(0.2, 0.3)).toBeCloseTo(0.5)
+  })
 })
