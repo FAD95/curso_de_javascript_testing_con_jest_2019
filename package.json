@@ -1,0 +1,17 @@
+{
+  "name": "curso_de_javascript_testing_con_jest_2019",
+  "version": "1.0.0",
+  "description": "Curso de Jest de Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Fadith Escorcia",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2"
+  }
+}
