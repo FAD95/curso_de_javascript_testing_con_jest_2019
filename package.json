@@ -4,7 +4,9 @@
   "description": "Curso de Jest de Platzi",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:matchers": "jest matchers.test.js"
+    
   },
   "author": "Fadith Escorcia",
   "license": "MIT",
